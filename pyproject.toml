@@ -1,0 +1,56 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "uc3m-pic"
+version = "0.1.0"
+authors = [
+    {name="ramajoballester", email="aramajo@ing.uc3m.es"},
+]
+description = "Helper package for UC3M PIC course"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "License :: OSI Approved :: GNU Affero General Public License v3",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+]
+
+keywords = [
+    "python",
+    "pytorch",
+    "deep-learning",
+    "computer-vision",
+]
+
+dependencies = [
+    "torch>=1.11.0",
+    "torchvision",
+    "numpy",
+    "matplotlib",
+    "tqdm",
+    "opencv-python",
+    "ipykernel"
+]
+
+[project.optional-dependencies]
+dev = [
+    "jupyterlab>=3.0"
+]
+test = [
+
+]
+
+[tool.setuptools.packages]
+find = {}
+
+[project.urls]
+"Homepage" = "https://github.com/ramajoballester/UC3M-PIC"
+"Bug Tracker" = "https://github.com/ramajoballester/UC3M-PIC/issues"
