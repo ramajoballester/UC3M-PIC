@@ -10,13 +10,13 @@ authors = [
 ]
 description = "Helper package for UC3M PIC course"
 readme = "README.md"
-requires-python = ">=3.7"
+requires-python = "==3.11.*"
 classifiers = [
     "Programming Language :: Python :: 3",
-    "Programming Language :: Python :: 3.7",
-    "Programming Language :: Python :: 3.8",
-    "Programming Language :: Python :: 3.9",
-    "Programming Language :: Python :: 3.10",
+    # "Programming Language :: Python :: 3.7",
+    # "Programming Language :: Python :: 3.8",
+    # "Programming Language :: Python :: 3.9",
+    # "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
     "License :: OSI Approved :: GNU Affero General Public License v3",
     "Natural Language :: English",
@@ -31,25 +31,29 @@ keywords = [
 ]
 
 dependencies = [
-    "torch>=1.11.0",
+    "torch>=2.0",
     "torchvision",
     "numpy",
     "matplotlib",
     "tqdm",
     "opencv-python",
-    "ipykernel"
+    "ipykernel",
+    "torchsummary",
+    "gspread",
+    "google-api-python-client"
 ]
 
 [project.optional-dependencies]
 dev = [
-    "jupyterlab>=3.0"
+    "pyarmor"
 ]
 test = [
 
 ]
 
 [tool.setuptools.packages]
-find = {}
+# find = {include = ["uc3m_pic"]}
+find = {namespaces = false}
 
 [project.urls]
 "Homepage" = "https://github.com/ramajoballester/UC3M-PIC"
