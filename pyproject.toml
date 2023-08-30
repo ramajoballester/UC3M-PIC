@@ -10,14 +10,14 @@ authors = [
 ]
 description = "Helper package for UC3M PIC course"
 readme = "README.md"
-requires-python = "==3.11.*"
+requires-python = ">=3.8,<3.10"
 classifiers = [
     "Programming Language :: Python :: 3",
     # "Programming Language :: Python :: 3.7",
-    # "Programming Language :: Python :: 3.8",
-    # "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
     # "Programming Language :: Python :: 3.10",
-    "Programming Language :: Python :: 3.11",
+    # "Programming Language :: Python :: 3.11",
     "License :: OSI Approved :: GNU Affero General Public License v3",
     "Natural Language :: English",
     "Operating System :: OS Independent",
@@ -40,7 +40,9 @@ dependencies = [
     "ipykernel",
     "torchsummary",
     "gspread",
-    "google-api-python-client"
+    "google-api-python-client",
+    "thop",
+    "wandb"
 ]
 
 [project.optional-dependencies]

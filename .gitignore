@@ -1,4 +1,7 @@
 */wandb/
+data/mnist
+data/emnist
+
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
