@@ -42,12 +42,14 @@ dependencies = [
     "gspread",
     "google-api-python-client",
     "thop",
-    "wandb"
+    "wandb",
+    "torchmetrics"
 ]
 
 [project.optional-dependencies]
 dev = [
-    "pyarmor"
+    "pyarmor",
+    "git-filter-repo"
 ]
 test = [
 

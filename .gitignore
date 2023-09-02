@@ -1,6 +1,7 @@
 */wandb/
 data/mnist
 data/emnist
+*/*.pt
 
 
 # Byte-compiled / optimized / DLL files
