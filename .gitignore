@@ -22,6 +22,7 @@ __pycache__/
 
 # C extensions
 *.so
+!uc3m_pic/pyarmor_runtime_000000/*.so
 
 # Distribution / packaging
 .Python
