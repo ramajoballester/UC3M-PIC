@@ -43,7 +43,10 @@ dependencies = [
     "google-api-python-client",
     "thop",
     "wandb",
-    "torchmetrics"
+    "torchmetrics",
+    "scipy",
+    "scikit-learn",
+    "IProgress"
 ]
 
 [project.optional-dependencies]
