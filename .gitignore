@@ -15,7 +15,9 @@ data/fgvc-aircraft-2013b
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
+!uc3m_pic/pyarmor_runtime_000000/__pycache__/
 *.py[cod]
+!uc3m_pic/pyarmor_runtime_000000/__pycache__/*.pyc
 *$py.class
 
 # C extensions
