@@ -46,13 +46,15 @@ dependencies = [
     "torchmetrics",
     "scipy",
     "scikit-learn",
-    "IProgress"
+    "IProgress",
+    "notebook"
 ]
 
 [project.optional-dependencies]
 dev = [
     "pyarmor",
-    "git-filter-repo"
+    "git-filter-repo",
+    "xelatex"
 ]
 test = [
 
