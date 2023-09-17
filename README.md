@@ -4,11 +4,7 @@ Computer Vision class material for Master in Robotics and Automation at UC3M
 
 # Installation
 
-## Install anaconda / miniconda
-
-## Create conda environment
-
-```conda create -n pic python=3.9.*```
+Refer to the installation guide for your OS
 
 ## Install pytorch 2.0 and its dependencies
 
@@ -20,25 +16,19 @@ Installation with conda is highly recommended:
 
 ## Install uc3m_pic package
 
+Clone this repo in your working directory:
 
-Forward port 8157
+```git clone https://github.com/ramajoballester/UC3M-PIC.git```
 
+And install it:
 
-## Install GCloud CLI
+```pip install .```
 
-[GCloud CLI](https://cloud.google.com/sdk/docs/install)
+To check everything is working, run:
 
-Set up credentials
-
-[Setup](https://cloud.google.com/docs/authentication/provide-credentials-adc)
-
-```
-gcloud auth application-default login
-gcloud auth application-default revoke
-```
+```python -m unittest```
 
 
-# Ideas 
+# Usage
 
-- Zero initialization
-- Input normalization
+Do not forget to run `wandb login` before starting the kernels of notebooks 02 and 03
