@@ -9,12 +9,9 @@ Refer to the installation guide for your OS
 ## Install pytorch 2.0 and its dependencies
 
 Follow Pytorch official [installation guide](https://pytorch.org/get-started/locally/).
-Installation with conda is highly recommended:
+Installation with conda is highly recommended.
 
-```conda install pytorch torchvision torchaudio pytorch-cuda=11.7 -c pytorch -c nvidia```
-```conda activate pic```
-
-## Install uc3m_pic package
+## Install uc3m-pic package
 
 Clone this repo in your working directory:
 
