@@ -1,5 +1,7 @@
 # UC3M-PIC
 
+![Python Version from PEP 621 TOML](https://img.shields.io/python/required-version-toml?tomlFilePath=https%3A%2F%2Fraw.githubusercontent.com%2Framajoballester%2FUC3M-PIC%2Fmain%2Fpyproject.toml&style=flat-square)
+
 Computer Vision class material for Master in Robotics and Automation at UC3M
 
 # Installation
