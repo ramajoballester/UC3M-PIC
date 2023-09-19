@@ -11,7 +11,7 @@ authors = [
 description = "Helper package for UC3M PIC course"
 readme = "README.md"
 # requires-python = ">=3.8,<3.10"
-requires-python = "==3.9.*"
+requires-python = ">=3.9, <3.11"
 classifiers = [
     "Programming Language :: Python :: 3",
     # "Programming Language :: Python :: 3.7",
