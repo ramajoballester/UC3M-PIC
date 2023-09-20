@@ -1,6 +1,6 @@
 # UC3M-PIC
 
-![Python Version from PEP 621 TOML](https://img.shields.io/python/required-version-toml?tomlFilePath=https%3A%2F%2Fraw.githubusercontent.com%2Framajoballester%2FUC3M-PIC%2Fmain%2Fpyproject.toml&style=flat-square)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/uc3m-pic?style=flat-square)
 
 Computer Vision class material for Master in Robotics and Automation at UC3M
 
@@ -15,13 +15,15 @@ Installation with conda is highly recommended.
 
 ## Install uc3m-pic package
 
+Install uc3m-pic package from PyPI:
+
+```pip install uc3m-pic```
+
+## Clone this repository
+
 Clone this repo in your working directory:
 
 ```git clone https://github.com/ramajoballester/UC3M-PIC.git```
-
-And install it:
-
-```pip install .```
 
 To check everything is working, run:
 
