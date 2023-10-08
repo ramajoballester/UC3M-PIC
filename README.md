@@ -6,8 +6,6 @@ Computer Vision class material for Master in Robotics and Automation at UC3M
 
 # Installation
 
-Refer to the installation guide for your OS
-
 ## Install pytorch 2.0 and its dependencies
 
 Follow Pytorch official [installation guide](https://pytorch.org/get-started/locally/).
