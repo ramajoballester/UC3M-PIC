@@ -2,7 +2,7 @@ UC3M-PIC Documentation
 ======================
 
 
-**UC3M-PIC** is a Python library that containts Computer Vision class material for Master in Robotics and Automation at UC3M. Check the `GitHub repository <https://github.com/ramajoballester/UC3M-PIC>`_.
+**UC3M-PIC** es una librería de Python que contiene material de la asignatura de Visión por Computador del Máster en Robótica y Automática de la UC3M. Visita el `repositorio de GitHub <https://github.com/ramajoballester/UC3M-PIC>`_.
 
 
 .. It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
@@ -17,8 +17,8 @@ UC3M-PIC Documentation
 ..    This project is under active development.
 
 
-Contents
---------
+Contenido
+---------
 
 .. toctree::
    :maxdepth: 1
