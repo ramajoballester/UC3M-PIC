@@ -7,6 +7,8 @@ from datetime import datetime
 
 sys.path.insert(0, os.path.abspath('../../packages'))
 
+language = 'es'
+
 # -- Project information
 
 project = 'uc3m-pic'
@@ -32,7 +34,7 @@ extensions = [
     'myst_parser',      # For markdown support
     'sphinx.ext.autosectionlabel',
     'sphinx_tabs.tabs',
-    'sphinx.ext.viewcode',
+    # 'sphinx.ext.viewcode',
     'sphinx_markdown_tables',
     'sphinx.ext.napoleon',
     # 'sphinx_design'
