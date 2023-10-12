@@ -5,16 +5,19 @@ import sys
 from importlib.metadata import metadata
 from datetime import datetime
 
-sys.path.insert(0, os.path.abspath('../../packages'))
+# sys.path.insert(0, os.path.abspath('../../packages'))
 
 language = 'es'
 
 # -- Project information
 
 project = 'uc3m-pic'
-project_slug = project.lower()
-author = metadata(project.lower())['Author-email'].split('<')[0][:-1]
-version = metadata(project.lower())['Version']
+# project_slug = project.lower()
+project_slug = 'uc3m-pic'
+# author = metadata(project.lower())['Author-email'].split('<')[0][:-1]
+author = 'Álvaro Ramajo'
+# version = metadata(project.lower())['Version']
+version = '0.1.5'
 release = version
 copyright = f'{datetime.now().year}, {author}'
 # release = '0.1'

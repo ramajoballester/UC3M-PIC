@@ -27,5 +27,5 @@ Contents
    install
    credentials
    colab
-   api
+   .. api
    
