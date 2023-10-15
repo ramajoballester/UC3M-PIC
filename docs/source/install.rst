@@ -37,7 +37,7 @@ El repositorio es ramajoballester/UC3M-PIC: `https://github.com/ramajoballester/
 Pytorch
 -------
 
-Seguir las indicaciones de la `página oficial <https://pytorch.org/get-started/locally/>`_. Se recomienda **instalar con conda**.
+Seguir las indicaciones de la `página oficial <https://pytorch.org/get-started/locally/>`_. Se recomienda **instalar PyTorch v2.0.1 con conda**.
 
 
 Paquete UC3M-PIC
@@ -62,5 +62,3 @@ Si todo ha sido instalado correctamente, los tests deberían pasar de forma sati
 
 .. warning::
     Es posible que se solicite instalar el paquete ipykernel
-
-    Seleccionar kernel antes de ejecutar el notebook

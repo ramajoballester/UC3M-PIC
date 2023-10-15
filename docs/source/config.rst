@@ -244,6 +244,12 @@ Pasos finales
 
 Instalar la extensión *Jupyter* para trabajar con los notebooks del repositorio de la misma forma que en el apartado `Configuración e integración de la terminal`_
 
+.. warning::
+   Asegurarse de seleccionar el interprete de python correspondiente al entorno virtual ``pic`` antes de abrir una terminal (o ejecutar ``conda activate pic``), si fuera necesario. 
+
+.. warning::
+    Seleccionar el kernel de Jupyter (esquina superior derecha) antes de ejecutar cada notebook.
+
 
 Extensiones adicionales recomendadas
 ------------------------------------
