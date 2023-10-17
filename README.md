@@ -8,4 +8,4 @@ Computer Vision class material for Master in Robotics and Automation at UC3M. Ch
 
 # Usage
 
-Do not forget to run `wandb login` before starting the kernels of notebooks 02 and 03
+Do not forget to run `wandb login` before starting the kernels of notebooks 02 and 03.
