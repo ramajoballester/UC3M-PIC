@@ -6,7 +6,7 @@ data/celeba
 data/eurosat
 data/gtsrb
 data/EMNIST
-data/imagenette2-320
+data/imagenette2-320*
 data/cifar-10-batches-py
 data/fgvc-aircraft-2013b
 data/MNIST
